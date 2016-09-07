@@ -195,7 +195,7 @@ class OrderBookTest(unittest.TestCase):
             ob_avg_t = test_struct(OrderBook(), 'submit_order', 10 ** test_rounds)
             list_avg_t = test_struct([], 'append', 10 ** test_rounds)
 
-            #print('\n', 10 ** test_rounds, ob_avg_t, list_avg_t)
+            print('\n', 10 ** test_rounds, ob_avg_t, list_avg_t)
 
             self.assertLess(list_avg_t / ob_avg_t, 5)
 

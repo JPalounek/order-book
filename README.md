@@ -11,9 +11,9 @@ It's a core of every capital markets exchange and its simulation and modeling is
 ## Data structures used
 Order data are stored in AVL trees - fast C language implementation of AVL trees (bintrees package). Update and search both have complexity of O(log n) thanks to this.
 
-Multiple data redundancies are tolerated to achieve a maximal execution speed (for RT market structure simulation is execution speed crucial)
+Multiple data redundancies are tolerated to achieve a maximal execution speed (for RT market structure simulation is speed crucial)
 
-## Operations implemented
+## Operations available
 
 Checkout demo.py for brief introduction or unit test in folder tests.
 
